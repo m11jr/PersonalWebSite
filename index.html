@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I am Alinurzada</title>
+    <link rel="stylesheet" href="./style/styl.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Radley:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Radley:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+<img src="./Assets/AlinurzadaLogo.png" alt="AlinurzadaLogo">
+    </nav>
+<header>
+    <h1> <i> Hello </i><span>, I am  <i>Alinurzada</i> </span></h1>
+    <div class="ParagContainer"><p>FrontEnd Developer and Video Maker</p>
+    <p>Student at <i>Vistula University</i></p>
+</div>
+
+<div class="HirBut">
+    <button id="linkedinButton">Hire Me</button>
+    <button id="downloadBtn">Download CV</button>
+</div>
+
+</header>
+
+<section class="aboutme">
+    <div class="aboutme-container">
+<div class="information">
+    <h3><i>About</i> Me</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, alias modi natus sint quis vitae eius omnis fugit ex! Earum aut libero corporis optio fugit itaque est, dolores tempora commodi iusto ad! Deleniti temporibus quaerat voluptatibus. Dignissimos impedit a vitae, vero odit obcaecati ab hic! Voluptatem dolor soluta illum expedita ex consequatur velit ratione rem ipsam temporibus, repellendus beatae similique provident unde voluptatum error reiciendis ducimus, consectetur laudantium pariatur deleniti.</p>
+</div>
+<div class="photo">
+    <img src="./Assets/AlinurMammadzada1.jpg" alt="Alinur-Mammadzada">
+</div>
+</div>
+</section>
+
+<h3 class="BackgroundH3">Background</h3>
+<section class="background">
+    
+
+    <div class="background-container">
+
+         <div class="education">
+           <img src="./Assets/Education.png" alt="Education">
+           <p>Vistula University</p>
+           <p>Computer Engineering</p>
+        </div>
+
+
+        <div class="work">
+            <img src="./Assets/Work.png" alt="Work">
+            <p>Lorem Group</p>
+            <p>FrontEnd Developer</p>
+        </div>
+
+     </div>
+
+
+</section>
+<div class="hr">
+<hr>
+</div>
+
+
+<section class="contact">
+
+    <h3>Contact Me</h3>
+
+    <form action="">
+     
+            <label for="Name">Name</label>
+            <input type="text" name="Name" id="Name" placeholder="Enter Your Name">
+
+     <br>
+        
+            <label for="Surname">Surname</label>
+            <input type="text" name="Surname" id="Surname" placeholder="Enter Your Surname">
+<br>
+         
+            <label for="Email">Email</label>
+            <input type="email" name="Email" id="Email" placeholder="Email">
+
+            <br>
+            <input type="submit" value="Send">
+        
+
+    </form>
+</section>
+    
+
+<footer>
+    <p>github : m11jr</p>
+</footer>
+
+
+<script>
+  
+    document.getElementById("downloadBtn").addEventListener("click", function () {
+      const link = document.createElement("a");
+      link.href = "./Assets/MyResume.pdf"; // Path to the file
+      link.download = "Your-Name.pdf"; // Suggested filename
+      link.target = "_blank";
+      link.click();
+    });
+
+
+    document.getElementById("linkedinButton").addEventListener("click", function () {
+      const linkLinkedin = document.createElement("a");
+      linkLinkedin.href = "https://pl.linkedin.com/in/alinur-mammadzada-2b9152273"; // Path to the file
+    
+      linkLinkedin.target = "_blank";
+      linkLinkedin.click();
+    });
+  
+</script>
+</body>
+</html>

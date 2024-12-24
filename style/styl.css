@@ -1,0 +1,293 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background:url(../Assets/BackgroundPG.png);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+   
+}
+nav img{
+    width: 70px;
+}
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+header{
+    height: 820px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8%;
+    animation:fadeInUp 2s ease-in-out forwards;
+
+}
+header h1{
+    font-size: 4.5em;
+    color: #191919;
+    font-family: "Radley", serif;
+  font-weight: 400;
+  animation:fadeInUp 2s ease-in-out forwards;
+
+}
+header h1 span{
+    color: #9b4819;
+}
+header h1 span i {
+    text-decoration:underline;
+    text-underline-offset: 35px;
+}
+header div{
+    text-align: center;
+    animation:fadeInUp 2s ease-in-out forwards;
+}
+header p{
+    font-size: 2.5em;
+    font-family: "Carlito", serif;
+    font-weight: 400;
+    font-style: normal;
+    animation:fadeInUp 2s ease-in-out forwards;
+}
+.HirBut{
+    display: flex;
+    gap: 25px;
+}
+.HirBut button{
+    width: 125px;
+    height: 60px;
+    border-radius: 24px;
+    border: 2px solid #9b4819;
+    background-color: rgba(270,270,270,0);
+    color:#9b4819 ;
+    animation:fadeInUp 1s ease-in-out forwards;
+   
+    transition: color 2s ease;
+}
+.HirBut button:hover{
+    background-color: rgb(155, 72, 25);
+    color: #ececec;
+}
+
+.aboutme{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+.aboutme-container{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+}
+.aboutme .photo img{
+   width: 200px;
+}
+.aboutme h3{
+    color: #9b4819;
+    font-size: 2em;
+    
+    font-family: "Radley", serif;
+  font-weight: 400;
+    }
+    .aboutme h3 i{
+        text-decoration: underline;
+        text-underline-offset: 5px;
+    }
+.aboutme p {
+    color: #191919;
+    font-size: 1.3em;
+    font-family: "Carlito", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.aboutme img{
+border-radius: 60px 60px 24px 24px;
+filter:grayscale(1)
+}
+
+.BackgroundH3 {
+    color: #9b4819;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5em;
+    font-family: "Radley", serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+.background{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 100%;
+margin-bottom: 50px;
+}
+
+.background-container{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-top: 50px;
+    overflow-x: hidden;
+}
+.background-container img{
+    width: 170px;
+}
+.background-container div{
+    padding-right: 150px;
+    padding-left: 150px;
+    font-family: "Radley", serif;
+    font-weight: 400;
+    color: #191919;
+
+
+}
+
+
+.education{
+
+    border-right: 2px solid #9b4819;
+}
+
+.education p , .work p{
+    font-size: 1.2em;
+    width: 200px;
+}
+.hr{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    margin-bottom: 20px;
+width: 60%;
+height: 2px;
+color: #9b4819;
+background-color: #9b4819;
+
+}
+
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+height: 550px !important;
+    align-items: center;
+    height: 200px;
+    flex-direction: column;
+}
+.contact h3{
+    font-size: 2.5em;
+    font-family: "Radley", serif;
+    font-weight: 400;
+    color: #9b4819;
+   
+    margin-bottom: 20px;
+}
+form{
+    width: 50%;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+}
+form input{
+    width: 100%;
+    height: 50px;
+    border-radius: 12px;
+    border: 2px solid #9b4819;
+}
+form input::placeholder{
+    color: rgba(155, 72, 25,0.4);
+    padding-left: 10px;
+}
+form input{
+    padding-left: 10px;
+}
+form label{
+    font-size: 1.5em;
+    font-family: "Carlito", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9b4819;
+    color: #ececec;
+    height: 50px;
+}
+
+@media (max-width:768px){
+    header{
+
+        height: 600px;
+    }
+    header h1{
+font-size: 2.5em;
+
+    }
+
+    header .ParagContainer p{
+        font-size: 1.2em;
+    }
+    .information p{
+        font-size: 0.80em;
+    }
+    .photo img{
+        width: 100px !important;
+    }
+    .background-container p{
+        font-size: 1em;
+    }
+
+    .background img{
+        width: 50px;
+    }
+    .background-container div{
+        padding-right: 20px;
+        padding-left: 20px;
+    
+    
+    
+    }
+    .background-container{
+        width: 90%;
+    }
+    .aboutme-container {
+        width: 80%;
+    }
+}
+
+@media (max-width:450px){
+    header h1{
+        font-size: 2.2em;
+        
+            }
+        
+            header .ParagContainer p{
+                font-size: 1.2em;
+            }
+
+            .background-container p{
+                font-size: 0.8em !important;
+            }
+
+
+
+}
